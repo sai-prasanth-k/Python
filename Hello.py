@@ -13,3 +13,15 @@ print(a+b)
 a = 596
 b = 193856
 print(b-a)
+
+
+a = 37
+b = 61 
+c = 391
+print(a*b*c)
+
+a = 33968
+b = 176
+a = a/b
+print(a)
+
