@@ -1,0 +1,5 @@
+word = input()
+n = input()
+n = int(n)
+letter = input()
+print(word[:n] + letter + word[n+1:])
