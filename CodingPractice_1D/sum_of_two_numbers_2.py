@@ -1,0 +1,6 @@
+num1 = input()
+num1 = float(num1)
+num2 = input()
+num2 = float(num2)
+total = float(num1 + num2)
+print("Sum: " + str(total))
