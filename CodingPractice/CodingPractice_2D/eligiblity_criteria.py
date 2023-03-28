@@ -1,0 +1,5 @@
+math = int(input())
+physics = int(input())
+chemistry = int(input())
+result = (math >= 70 and physics >= 60 and chemistry >= 60) or (math + physics + chemistry >= 180)
+print(result)
