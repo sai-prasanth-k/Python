@@ -1,0 +1,6 @@
+a = input()
+first = int(a[0])
+second = int(a[1])
+third = int(a[2])
+result = (first > 7 and second > 7 and third > 7) or ((first * second <= 30) and (second * third <= 30) and (first * third <= 30))
+print(result)

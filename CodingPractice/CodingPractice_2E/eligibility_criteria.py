@@ -1,0 +1,5 @@
+m = int(input())
+p = int(input())
+c = int(input())
+result = ((m + p >= 100) or (p + c >= 100) or (m + c >= 100)) and (m + p + c >= 180)
+print(result)

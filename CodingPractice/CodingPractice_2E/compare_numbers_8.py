@@ -1,0 +1,6 @@
+num = input()
+first = int(num[0])
+second = int(num[1])
+third = int(num[2])
+result = (first == 1 or second == 1) and (first + second + third < 12 ) and (third == 5)
+print(result)

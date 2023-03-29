@@ -1,0 +1,5 @@
+num = input()
+first = int(num[0:2])
+last = int(num[2:4])
+result = (first == 19) and (last > 30 and last < 60 )
+print(result)

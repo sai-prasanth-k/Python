@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c = int(input())
+result = (a + b > 10 and b + c > 10) or (b + c > 10 and c + a > 10) or (a + c > 10 and b + c > 10)
+print(result)

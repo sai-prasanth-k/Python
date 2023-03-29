@@ -1,0 +1,6 @@
+num = input()
+first = int(num[0])
+second = int(num[1])
+third = int(num[2])
+result = (first > 4 and second > 4 and third > 4 ) or (first == 6)
+print(result)
