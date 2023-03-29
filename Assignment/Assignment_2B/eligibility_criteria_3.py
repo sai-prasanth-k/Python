@@ -1,0 +1,5 @@
+m = int(input())
+p = int(input())
+c = int(input())
+result = (m >= 35 and p >= 35 and c >= 35) and (m + p >= 90 or p + c >= 90 or m + c >= 90)
+print(result)
