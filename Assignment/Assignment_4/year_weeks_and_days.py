@@ -1,0 +1,8 @@
+n = int(input())
+year = int(n / 365)
+remainAfterYears = n - (year * 365)
+week = int(remainAfterYears / 7)
+days = remainAfterYears- (week * 7)
+print(year)
+print(week)
+print(days)
