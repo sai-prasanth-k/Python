@@ -7,7 +7,7 @@ elif units < 150 :
 elif units < 250 :
     bill = (2 * 50) + (3 *100) + (5 *(units - 150))
 elif units >= 250 :
-    bill = (2 * 50) + (3 * 100 ) + (5 * 150) + (8 * (units - 250))
+    bill = (2 * 50) + (3 * 100 ) + (5 * 100) + (8 * (units - 250))
     
 surcharge = (0.2 * bill)
 
