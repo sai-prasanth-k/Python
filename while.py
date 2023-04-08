@@ -111,3 +111,66 @@ while count < 3:
     count = count + 1
 print(result)
 
+a = 8
+while a <= 8:
+    if a > 8:
+        print("Hai")
+        a = a + 1
+print(a)
+
+count = 0
+while count < 3:
+    if count < 2 and count < 6:
+        print("Work")
+    count = count + 1
+print("Done!")
+
+word = "Python"
+count = 0
+while count < len(word) - 1:
+    count = count + 1
+    print(word[count])
+
+a = "World"
+count = 0
+len_a = len(a)
+while count < len_a - 1:
+    print(a[count])
+    count = count + 1
+
+count = 4
+while count > 2:
+    count = count - 1
+    print(count ** count)
+
+n = 4
+count = 1
+while count <= n:
+    print("+ "*n)
+    count = count + 1
+
+a = 5
+counter = 1
+while counter <= 3:
+    a = a + 1
+    print(a)
+    counter = counter + 1
+print("End")
+
+a = 0
+count = 1
+while count < 3:
+    a = a + 1
+    print(a)
+    count = count + 1
+print("End")
+
+a = 3
+i = 1
+count = 0
+while i <= a:
+    if i % 2 == 0:
+        count = count + i
+    i = i + 1
+print(count)
+
