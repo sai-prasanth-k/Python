@@ -1,4 +1,4 @@
- m = int(input())
+m = int(input())
 n = int(input())
 count = 0
 res = 0
