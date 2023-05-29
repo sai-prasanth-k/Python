@@ -79,7 +79,7 @@ print(last_row)
 
 # row =2
 
-# left_sapce count = 5 - 2 => left_space_count = 3
+# left_space count = 5 - 2 => left_space_count = 3
 
 # left_spaces = " " *3 
 
