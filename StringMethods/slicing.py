@@ -3,6 +3,9 @@ part = a[1:6:3]
 print(part)
 
 
+b = "Programming"
+print(b[1::4])
+
 #String Methods
 # isdigit()
 # strip()
